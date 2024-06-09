@@ -6,11 +6,11 @@ def animate_points(positions, velocity, iteration):
     pygame.init()
 
     WIDTH, HEIGHT = 800, 600
-    BG_COLOR = (0, 0, 0)  # Biały kolor tła
-    BLUE = (0, 0, 255)  # Kolor niebieski
-    YELLOW = (255, 255, 0)  # Kolor żółty
-    POINT_RADIUS = 5  # Promień punktów
-    STAR_POINT = 10  # Promień żółtego punktu
+    BG_COLOR = (0, 0, 0)
+    BLUE = (0, 0, 255) 
+    YELLOW = (255, 255, 0)
+    POINT_RADIUS = 5
+    STAR_POINT = 10
     screen_width = 800
     screen_height = 600
 
